@@ -10,10 +10,10 @@ class EmailParser
     @emails = emails
   end
   
-  def parse
-    parsed_emails = @emails.split(" ", ",").uniq{|email| email}
-    parsed_emails
-  end 
+  #def parse
+    #parsed_emails = @emails.split(" ", ",").uniq{|email| email}
+    #parsed_emails
+  #end 
   
 end
   
